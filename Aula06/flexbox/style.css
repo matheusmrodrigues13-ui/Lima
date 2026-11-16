@@ -1,0 +1,245 @@
+/* Configurações gerais da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+
+/* Espaçamento entre as seções */
+section {
+    margin-bottom: 20px;
+}
+
+
+/* Estilização dos títulos */
+h2 {
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+/* Container principal do Flexbox */
+.container-flex {
+    display: flex;
+    background-color: #6d847c;
+    gap: 10px;
+}
+
+
+/* Estilização dos itens */
+.item-flex {
+    background-color: #a6e5d8;
+    padding: 20px;
+}
+
+
+/* Direção dos itens em linha */
+.direcao-linha {
+    flex-direction: row;
+}
+
+
+/* Direção dos itens em coluna */
+.direcao-coluna {
+    flex-direction: column;
+}
+
+
+/* Permite que os itens passem para outra linha */
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+/* Mantém todos os itens na mesma linha */
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+
+/* Alinha os itens no início */
+.justificar-inicio {
+    justify-content: flex-start;
+}
+
+
+/* Alinha os itens no final */
+.justificar-fim {
+    justify-content: flex-end;
+}
+
+
+/* Centraliza os itens */
+.justificar-centro {
+    justify-content: center;
+}
+
+
+/* Distribui o espaço entre os itens */
+.justificar-space-between {
+    justify-content: space-between;
+}
+
+
+/* Distribui o espaço ao redor dos itens */
+.justificar-space-around {
+    justify-content: space-around;
+}
+
+
+/* Distribui o espaço igualmente entre os itens */
+.justificar-space-evenly {
+    justify-content: space-evenly;
+}
+
+
+/* Define a altura do container */
+.alinhar-items .container-flex {
+    height: 300px;
+}
+
+
+/* Estica os itens para ocupar o espaço disponível */
+.alinhar-stretch {
+    align-items: stretch;
+}
+
+
+/* Alinha os itens no início */
+.alinhar-inicio {
+    align-items: start;
+}
+
+
+/* Alinha os itens no final */
+.alinhar-fim {
+    align-items: end;
+}
+
+
+/* Centraliza os itens verticalmente */
+.alinhar-centro {
+    align-items: center;
+}
+
+
+/* Alinha os itens pela linha de base do texto */
+.alinhar-baseline {
+    align-items: baseline;
+}
+
+
+/* Alinha as linhas do conteúdo */
+.alinha-conteudo {
+    align-content: center;
+    height: 600px;
+}
+
+
+/* Define o tamanho inicial das caixas em 30% */
+.alinhar-conteudo .caixa {
+    flex: 0 0 30%;
+}
+
+
+/* Estilização geral das caixas */
+.caixa {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+/* Define a ordem de exibição dos itens */
+.ordem1 {
+    order: 1;
+}
+
+
+.ordem2 {
+    order: 2;
+}
+
+
+.ordem3 {
+    order: 3;
+}
+
+
+/* Define o tamanho inicial dos itens */
+.exemplo-grow .item-flex {
+    flex-basis: 100px;
+}
+
+
+/* Permite que o item cresça 1 vez */
+.crescer1 {
+    flex-grow: 1;
+}
+
+
+/* Permite que o item cresça 2 vezes */
+.crescer2 {
+    flex-grow: 2;
+}
+
+
+/* Define a altura do container */
+.alinhar-items-individuais .container-flex {
+    height: 300px;
+}
+
+
+/* Alinha um item individual no início */
+.self-inicio {
+    align-self: start;
+}
+
+
+/* Centraliza um item individual */
+.self-centro {
+    align-self: center;
+}
+
+
+/* Alinha um item individual no final */
+.self-fim {
+    align-self: end;
+}
+
+
+/* Configuração do menu de navegação */
+.menu-nav {
+    gap: 0px;
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+}
+
+
+/* Estilização dos links do menu */
+.link {
+    background-color: #000000;
+    padding: 20px;
+    color: #ffffff;
+}
+
+
+/* Muda as cores do link quando o mouse passa por cima */
+.link:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+/* Permite que os itens do container se reorganizem */
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
